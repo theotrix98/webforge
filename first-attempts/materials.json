@@ -3,5 +3,5 @@
   "name": "Copper",
   "ingotPrice": 10,
   "sellMulti": 1.1,
-  "breakChance": 0,
+  "breakChance": 0
 }
