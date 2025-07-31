@@ -1,7 +1,16 @@
 {
-  "type": "metal",
-  "name": "Copper",
-  "ingotPrice": 10,
-  "sellMulti": 1.1,
-  "breakChance": 0
+  "metals": [
+    {
+      "name": "Copper",
+      "ingotPrice": 10,
+      "sellMulti": 1.1,
+      "breakChance": 0
+    },
+    {
+      "name": "Iron",
+      "ingotPrice": 25,
+      "sellMulti": 1.5,
+      "breakchance": 0
+    }
+  ]
 }
