@@ -1,4 +1,7 @@
-"metals": [
-  {"metalName":"Copper", "ingotPrice":10, "sellMulti":1.1, "breakChance":0},
-  {"metalName":"Iron", "ingotPrice":50, "sellMulti":1.5, "breakChance":0}
-]
+{
+  "type": "metal",
+  "name": "Copper",
+  "ingotPrice": 10,
+  "sellMulti": 1.1,
+  "breakChance": 0,
+}
