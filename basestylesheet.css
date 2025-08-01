@@ -31,9 +31,9 @@
   to {transform: translate(0, 2px);}
 }
 
-/* .nomoney {
+.nomoney {
   display: none;
-} */
+}
 
 .textbox {
   width: 90vw;
@@ -63,5 +63,4 @@ body {
   background-color: var(--menutrans);
   text-align: center;
   color: var(--menutxt);
-  display: none;
 }
