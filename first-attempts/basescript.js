@@ -1,3 +1,21 @@
+function Material(name, ingpri, selmult, brkchnc) {
+  this.name = name;
+  this.ingotPrice = ingpri;
+  this.sellMulti = selmult;
+  this.breakChance = brkchnc;
+} // metal object creator thingy idfk
+
+const cpr = new Material("Copper", 10, 1.1, 0);
+
+function Blueprint(shape, buycost, basecost, hardness) {
+  this.itemShape = shape;
+  this.itemPrice = buycost;
+  this.itemSell = basecost;
+  this.difficulty = hardness;
+} // blueprint object creator thingf...
+
+// THIS IS A LINE BREAK FOR THE OBJECT STUFF!! Everything above this is to establish materials, blueprints, etc! Following this point is the main code for the game
+
 let gc = 50; //gc stands for Gold Coins, this is the currency
 let gDisplay = document.getElementById("balDis");
 
@@ -6,8 +24,6 @@ function updateBal() {
 }
 
 updateBal();
-
-let copper = {name: "Copper", ingotPrice: 10, sellMulti: 1.1};
 
 let brokePopUp = document.getElementById("noMoneyAlert");
 
@@ -26,5 +42,4 @@ function buyIngot(ingot) {
   } else {
     noMoneyPop();
   }
-  
 }
