@@ -5,7 +5,16 @@ function Material(name, ingpri, selmult, brkchnc) {
   this.breakChance = brkchnc;
 } // metal object creator thingy idfk
 
-const cpr = new Material("Copper", 10, 1.1, 0);
+const cpr = new Material("Copper", 10, 1.2, 0);
+const irn = new Material("Iron", 25, 1.5, 0);
+const glss = new Material("Glass", 75, 2, 0.75);
+const stl = new Material("Steel", 75, 1.75, 0);
+const gld = new Material("Gold", 125, 2.5, 0.5);
+const slvr = new Material("Silver", 100, 2, 0.2);
+const obsd = new Material("Obsidian", 200, 2.5, 0);
+const grit = new Material("Grittium", 250, 5, 0.95);
+const sted = new Material("Steadite", 250, 3, 0);
+const chqu = new Material("Chance-Quartz", 250, 4, 0.5);
 
 // ingot objects ^ | blueprint objects v
 
@@ -17,6 +26,10 @@ function Blueprint(shape, buycost, basecost, hardness) {
 } // blueprint object creator thingf...
 
 const swrd = new Blueprint("Sword", 0, 5, 1);
+const sper = new Blueprint("Spear", 30, 15, 2);
+const axe = new Blueprint("Axe", 60, 40, 3);
+const shield = new Blueprint("Shield", 100, 75, 4);
+const crest = new Blueprint("Crest", 300, 150, 5);
 
 // blueprint objects ^
 
