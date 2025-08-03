@@ -4,8 +4,8 @@ Date started: 7/29/2025
 Last updated: 8/3/2025
 
 I currently don't have a precise roadmap, but here's a vague notion of things I'd like to accomplish at minimum with this project:
-- At least 10 metals to forge with (currently have 1/10)
-- At least 5 'blueprints'/weapons/tools to forge
+- At least 10 metals to forge with (1/10)
+- At least 5 'blueprints'/weapons/tools to forge (1/5)
 - A balanced difficulty/grind that is easy to learn but requires at least a little time commitment to finish
 - A save/load system
 - Actual audio and sfx
