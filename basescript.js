@@ -7,12 +7,18 @@ function Material(name, ingpri, selmult, brkchnc) {
 
 const cpr = new Material("Copper", 10, 1.1, 0);
 
+// ingot objects ^ | blueprint objects v
+
 function Blueprint(shape, buycost, basecost, hardness) {
   this.itemShape = shape;
   this.itemPrice = buycost;
   this.itemSell = basecost;
   this.difficulty = hardness;
 } // blueprint object creator thingf...
+
+const swrd = new Blueprint("Sword", 0, 5, 1);
+
+// blueprint objects ^
 
 // THIS IS A LINE BREAK FOR THE OBJECT STUFF!! Everything above this is to establish materials, blueprints, etc! Following this point is the main code for the game
 
