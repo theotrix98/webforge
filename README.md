@@ -1,3 +1,10 @@
+# WebForge is .. uh...
+As you can tell by the fact that the last update was in early august and im writing this in late november, Webforge is kinda. well, I'm not fully scrapping it, but at the moment it's not being developed; it probably won't be developed the same way as it was originally intended, as a webgame, if I *do* decide to pick it up again. If you somehow stumble across this repo in the future and want, for some reason, to continue the project as it was, feel free to! I doubt anyone will, but hey, I won't stand in the way if you happen to have the unfortunate curse of Getting Obsessed With Some Niche Thing That Nobody Knows About And The Creator Left To Get Milk. I have trudged that battlefield so many times...
+
+The rest of this README file is preserved as it was. WebForge is officially considered on "indefinite hiatus" as of November 20th, 2025.
+
+---
+
 Webforge (name is a work in progress) is a project in the works, the idea being to both really dip my hands in to javascript as well as develop my first actual game. Granted, it will most likely be a browser game, but still a game regardless. As the project develops, I'll update this repository. For now, here's some fun info because wow i really havent done anything like this before and have nooo clue what to do here 
 
 Date started: 7/29/2025
